@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=UniNet
+Comment=UniNet P2P Cryptocurrency
+Comment[fr]=UniNet, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=UniNet, eşten eşe kriptografik sanal para birimi
+Exec=unn-qt %u
+Terminal=false
+Type=Application
+Icon=unn128
+MimeType=x-scheme-handler/unn;
+Categories=Office;Finance;
