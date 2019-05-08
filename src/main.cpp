@@ -1553,21 +1553,6 @@ int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
 
-    // if (nHeight <= Params().LAST_POW_BLOCK()) {
-    //     nSubsidy = (double)(Params().MaxMoneyOut() / (20 * Params().LAST_POW_BLOCK() * COIN)) * COIN;
-    // } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 388800) {
-    //      int nDiv = div(nHeight - 1,(int)(60 * 60 * 24 / Params().TargetSpacing()) * 15).quot;
-    //      nSubsidy = (0.5 + (double)nDiv / 2) * COIN;
-    // } else if (nHeight > 388800 && nHeight <= 525600) {
-	// 	nSubsidy = 5 * COIN;
-    // } else {
-    //     nSubsidy = 4 * COIN;
-    // }
-	
-	// // yearly decline of production by 10% per year until reached max coin ~21M.
-    // for (int i = 3 * Params().SubsidyHalvingInterval(); i <= nHeight; i += Params().SubsidyHalvingInterval()) {
-    //     nSubsidy -= nSubsidy * 0.1;
-	// }	
     if (nHeight <= Params().LAST_POW_BLOCK()){
         nSubsidy = 5000 * COIN;
     }else{
@@ -1587,16 +1572,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 {
     int64_t ret = 0;
     ret = blockValue * 0.80;
- 	// if(nHeight <= 86400 ) {
-    //     ret = blockValue * 0.80;
-	// } else if (nHeight > 86400 && nHeight <= 172800) {
-    //     ret = blockValue * 0.85;
-	// } else if (nHeight > 172800 && nHeight <= 388800) {
-    //     ret = blockValue * 0.90;
-	// } else {
-    //     ret = blockValue * 0.80;
-	// } 
-
+ 	
     return ret;
 }
 
