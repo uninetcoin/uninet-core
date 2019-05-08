@@ -1568,12 +1568,17 @@ int64_t GetBlockValue(int nHeight)
     // for (int i = 3 * Params().SubsidyHalvingInterval(); i <= nHeight; i += Params().SubsidyHalvingInterval()) {
     //     nSubsidy -= nSubsidy * 0.1;
 	// }	
-
-    if (nHeight == 0) {
-        nSubsidy = 500000 * COIN;  
+    if (nHeight <= Params().LAST_POW_BLOCK()){
+        nSubsidy = 5000 * COIN;
     }else{
-        nSubsidy = 1 * COIN;
+        nSubsidy = 1 * COIN; 
     }
+
+    // if (nHeight == 0) {
+    //     nSubsidy = 500000 * COIN;  
+    // }else{
+    //     nSubsidy = 1 * COIN;
+    // }
 	
     return nSubsidy;
 }
