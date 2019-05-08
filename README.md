@@ -13,13 +13,13 @@ More information at [uninet-coin.com](http://uninet-coin.com)
 <tr><td>Type</td><td>POS + Masternode</td></tr>
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
-<tr><td>Maturity</td><td>100 Confirmations</td></tr>
+<tr><td>Maturity</td><td>20 Confirmations</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Masternode Collateral</td><td>1,000 UNN</td></tr>
 <tr><td>P2P port</td><td>47578</td></tr>
 <tr><td>RPC port</td><td>47579</td></tr>
 <tr><td>Max Coin Supply</td><td>5,000,000 UNN</td></tr>
-<tr><td>Premine</td><td>5% *</td></tr>
+<tr><td>Premine</td><td>10% *</td></tr>
 </table>
 
 *View Coin Distribution on [uninet-coin.com](http://uninet-coin.com)
