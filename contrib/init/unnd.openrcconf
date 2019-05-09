@@ -1,0 +1,26 @@
+# /etc/conf.d/unnd: config file for /etc/init.d/unnd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/unn/unn.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/unnd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/unnd.pid"
+
+# Where to write unnd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/unnd"
+
+# User and group to own unnd process
+#BITCOIND_USER="unn"
+#BITCOIND_GROUP="unn"
+
+# Path to unnd executable
+#BITCOIND_BIN="/usr/bin/unnd"
+
+# Nice value to run unnd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
