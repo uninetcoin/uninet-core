@@ -120,12 +120,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000003935675d1f44610067ba64a593e84fb0fc200c4d709f4d785f178b9930e"));
         assert(genesis.hashMerkleRoot == uint256("0x9440deac67f8cb0848041b1b2b884c13a76a120b5f47ce959ddcd84cb097848f"));
 
-        vSeeds.push_back(CDNSSeedData("dns1.uninet-coin.com", "dns1.uninet-coin.com"));
-        vSeeds.push_back(CDNSSeedData("dns2.uninet-coin.com", "dns2.uninet-coin.com"));
-        vSeeds.push_back(CDNSSeedData("dns3.uninet-coin.com", "dns3.uninet-coin.com"));
-        vSeeds.push_back(CDNSSeedData("ns1.uninet-coin.com", "ns1.uninet-coin.com"));
-        vSeeds.push_back(CDNSSeedData("ns2.uninet-coin.com", "ns2.uninet-coin.com"));
-        vSeeds.push_back(CDNSSeedData("ns3.uninet-coin.com", "ns3.uninet-coin.com"));
+        vSeeds.push_back(CDNSSeedData("seed1.uninet-coin.com", "seed1.uninet-coin.com"));
+        vSeeds.push_back(CDNSSeedData("seed2.uninet-coin.com", "seed2.uninet-coin.com"));
+        vSeeds.push_back(CDNSSeedData("seed3.uninet-coin.com", "seed3.uninet-coin.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 68);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 33);
@@ -199,7 +196,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-
+        vSeeds.push_back(CDNSSeedData("testseed1.uninet-coin.com", "testseed1.uninet-coin.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 80); // Testnet unn addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 20);  // Testnet unn script addresses start with '8' or '9'
