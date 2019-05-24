@@ -1637,8 +1637,8 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
        is convertable to another.
 
        For example:
-       1SINS+1000 == (.1SINS+100)*10
-       10SINS+10000 == (1SINS+1000)*10
+       1UNN+1000 == (.1UNN+100)*10
+       10UNN+10000 == (1UNN+1000)*10
     */
     privateSendDenominations.push_back((10000 * COIN) + 10000000);
     privateSendDenominations.push_back((1000 * COIN) + 1000000);

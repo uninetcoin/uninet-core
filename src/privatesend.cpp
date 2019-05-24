@@ -1916,10 +1916,10 @@ void CPrivatesendPool::GetDenominationsToString(int nDenom, std::string& strDeno
 {
     // Function returns as follows:
     //
-    // bit 0 - 100SINS+1 ( bit on if present )
-    // bit 1 - 10SINS+1
-    // bit 2 - 1SINS+1
-    // bit 3 - .1SINS+1
+    // bit 0 - 100UNN+1 ( bit on if present )
+    // bit 1 - 10UNN+1
+    // bit 2 - 1UNN+1
+    // bit 3 - .1UNN+1
     // bit 3 - non-denom
 
 
@@ -1989,10 +1989,10 @@ int CPrivatesendPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSi
 
     // Function returns as follows:
     //
-    // bit 0 - 100SINS+1 ( bit on if present )
-    // bit 1 - 10SINS+1
-    // bit 2 - 1SINS+1
-    // bit 3 - .1SINS+1
+    // bit 0 - 100UNN+1 ( bit on if present )
+    // bit 1 - 10UNN+1
+    // bit 2 - 1UNN+1
+    // bit 3 - .1UNN+1
 
     return denom;
 }

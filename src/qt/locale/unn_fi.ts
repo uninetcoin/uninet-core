@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
-        <translation>UniNet sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SINSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
+        <translation>UniNet sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella UNNien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -181,7 +181,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNN&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SINSisi&lt;/b&gt;</translation>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki UNNisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>

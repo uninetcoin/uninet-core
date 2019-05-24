@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
-        <translation>UniNet kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SINSs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
+        <translation>UniNet kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina UNNs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

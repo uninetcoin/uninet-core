@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
         <translation>UniNet сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши UniNet от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>

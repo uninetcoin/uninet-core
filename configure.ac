@@ -14,9 +14,9 @@ AC_CONFIG_MACRO_DIR([build-aux/m4])
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef SINS_CONFIG_H])
-AH_TOP([#define SINS_CONFIG_H])
-AH_BOTTOM([#endif //SINS_CONFIG_H])
+AH_TOP([#ifndef UNN_CONFIG_H])
+AH_TOP([#define UNN_CONFIG_H])
+AH_BOTTOM([#endif //UNN_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

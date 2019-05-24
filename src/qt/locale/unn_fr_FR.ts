@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
-        <translation>UniNet va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SINSs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
+        <translation>UniNet va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos UNNs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

@@ -176,7 +176,7 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
         <translation>UniNet verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi UNN dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>

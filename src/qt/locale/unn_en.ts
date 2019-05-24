@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3630,12 +3630,12 @@ https://www.transifex.com/unn/unnscore-project-translations</source>
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uSINSs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSINSs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uSINSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uUNNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uUNNs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uUNNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uSINSs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSINSs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uSINSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uUNNs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uUNNs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uUNNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

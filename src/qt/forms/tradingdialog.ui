@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SINSSupply">
+    <widget class="QLabel" name="UNNSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="SINSDemand">
+    <widget class="QLabel" name="UNNDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuySINS">
+    <widget class="QPushButton" name="BuyUNN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1707,7 +1707,7 @@
       <string>UNN</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputSINS">
+    <widget class="QLineEdit" name="UnitsInputUNN">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellSINSBTN">
+    <widget class="QPushButton" name="SellUNNBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1782,7 +1782,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="SINSAvailableLabel">
+       <widget class="QLabel" name="UNNAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelSINS">
+       <widget class="QLabel" name="labelUNN">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SINSBalanceLabel">
+    <widget class="QLabel" name="UNNBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SINSAvailableLabel_2">
+    <widget class="QLabel" name="UNNAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2835,7 +2835,7 @@
       <string>UNN Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="SINSPendingLabel">
+    <widget class="QLabel" name="UNNPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>

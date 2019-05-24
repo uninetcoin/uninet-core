@@ -176,8 +176,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
-        <translation>UniNet encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas SINSs contra roubo por malware infectando seu computador.</translation>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
+        <translation>UniNet encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas UNNs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

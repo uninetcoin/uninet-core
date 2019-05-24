@@ -176,8 +176,8 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SINSs from being stolen by malware infecting your computer.</source>
-        <translation>Unn는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 SINSs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>UniNet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your UNNs from being stolen by malware infecting your computer.</source>
+        <translation>Unn는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 UNNs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNN&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 SINS를 잃게 됩니다&lt;/b&gt;!</translation>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 UNN를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1557,11 +1557,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 UNN to anonymize 10000 UNN</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 UNN 익명화에 약 ~0.025 SINS의 비용이 들어갑니다.</translation>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 UNN 익명화에 약 ~0.025 UNN의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 UNN to anonymize 10000 UNN</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 UNN 익명화에 약 0.05 SINS의 비용이 들어갑니다.</translation>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 UNN 익명화에 약 0.05 UNN의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -2845,12 +2845,12 @@ https://www.transifex.com/unn/unnscore-project-translations</translation>
         <translation>승인 시간:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSINSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSINSs in fee,&lt;br /&gt;while "at least" pays 1000 uSINSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSINSs로 설정되고,&lt;br /&gt;1000 uSINSs 안에는 최소 "킬로바이트당" 250 uSINSs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uUNNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uUNNs in fee,&lt;br /&gt;while "at least" pays 1000 uUNNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uUNNs로 설정되고,&lt;br /&gt;1000 uUNNs 안에는 최소 "킬로바이트당" 250 uUNNs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSINSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSINSs in fee,&lt;br /&gt;while "total at least" pays 1000 uSINSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSINSs로 설정되고,&lt;br /&gt;1000 uSINSs 안에는 전체에서 최소 "킬로바이트당" 250 uSINSs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uUNNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uUNNs in fee,&lt;br /&gt;while "total at least" pays 1000 uUNNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uUNNs로 설정되고,&lt;br /&gt;1000 uUNNs 안에는 전체에서 최소 "킬로바이트당" 250 uUNNs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for UniNet transactions than the network can process.</source>
@@ -3851,7 +3851,7 @@ https://www.transifex.com/unn/unnscore-project-translations</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 UNN.</source>
-        <translation>InstantSend는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 SINS로 제한됩니다.</translation>
+        <translation>InstantSend는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 UNN로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4125,11 +4125,11 @@ rpcpassword=%s
     </message>
     <message>
         <source>Unable to locate enough Privatesend non-denominated funds for this transaction that are not equal 10000 UNN.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 SINS과 일치하지 않음.</translation>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 UNN과 일치하지 않음.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 UNN.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 SINS와 같지 않음</translation>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 UNN와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
