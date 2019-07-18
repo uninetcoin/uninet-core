@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2019 The UniNet Core developers
+// Copyright (c) 2017-2019 The Uninet Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -83,7 +83,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.credit = txout.nValue;
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                    // Received by UniNet Address
+                    // Received by Uninet Address
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
@@ -144,7 +144,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.type = TransactionRecord::Obfuscated;
                 CTxDestination address;
                 if (ExtractDestination(wtx.vout[0].scriptPubKey, address)) {
-                    // Sent to UniNet Address
+                    // Sent to Uninet Address
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
                     // Sent to IP, or other non-address transaction like OP_EVAL
@@ -187,7 +187,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
 
                 CTxDestination address;
                 if (ExtractDestination(txout.scriptPubKey, address)) {
-                    // Sent to UniNet Address
+                    // Sent to Uninet Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
@@ -239,7 +239,11 @@ void TransactionRecord::updateStatus(const CWalletTx& wtx)
         (wtx.IsCoinBase() ? 1 : 0),
         wtx.nTimeReceived,
         idx);
-    status.countsForBalance = wtx.IsTrusted() && !(wtx.GetBlocksToMaturity() > 0);
+
+    // Determine the depth of the block
+    int nBlocksToMaturity = wtx.GetBlocksToMaturity();
+
+    status.countsForBalance = wtx.IsTrusted() && !(nBlocksToMaturity > 0);
     status.depth = wtx.GetDepthInMainChain();
     status.cur_num_blocks = chainActive.Height();
     status.cur_num_ix_locks = nCompleteTXLocks;
@@ -255,12 +259,11 @@ void TransactionRecord::updateStatus(const CWalletTx& wtx)
     }
     // For generated transactions, determine maturity
     else if (type == TransactionRecord::Generated || type == TransactionRecord::StakeMint || type == TransactionRecord::MNReward) {
-        if (wtx.GetBlocksToMaturity() > 0) {
+        if (nBlocksToMaturity > 0) {
             status.status = TransactionStatus::Immature;
+            status.matures_in = nBlocksToMaturity;
 
-            if (wtx.IsInMainChain()) {
-                status.matures_in = wtx.GetBlocksToMaturity();
-
+            if (pindex && chainActive.Contains(pindex)) {
                 // Check if the block was requested by anyone
                 if (GetAdjustedTime() - wtx.nTimeReceived > 2 * 60 && wtx.GetRequestCount() == 0)
                     status.status = TransactionStatus::MaturesWarning;
@@ -269,6 +272,7 @@ void TransactionRecord::updateStatus(const CWalletTx& wtx)
             }
         } else {
             status.status = TransactionStatus::Confirmed;
+            status.matures_in = 0;
         }
     } else {
         if (status.depth < 0) {
